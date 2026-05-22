@@ -4,12 +4,15 @@
   "description": "backend developed ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev":"nodeman src/idex.js"
   },
   "keywords": [
     "js",
     "backend"
   ],
   "author": "Jeet",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "nodeman": "^1.1.2"
+  }
 }
