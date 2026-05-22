@@ -4,7 +4,7 @@
   "description": "backend developed ",
   "main": "index.js",
   "scripts": {
-    "dev":"nodeman src/idex.js"
+    "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
   },
   "keywords": [
     "js",
@@ -13,6 +13,12 @@
   "author": "Jeet",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.6.2",
     "nodeman": "^1.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
   }
 }
