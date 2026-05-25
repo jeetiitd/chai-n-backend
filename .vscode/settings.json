@@ -1,0 +1,13 @@
+{
+    "accessibility.accessibleView.closeOnKeyPress": false,
+    "accessibility.hideAccessibleView": false,
+    "accessibility.verbosity.terminalChatOutput": false,
+    "accessibility.verbosity.walkthrough": false,
+    "accessibility.verbosity.hover": false,
+    "accessibility.verbosity.inlineCompletions": false,
+    "accessibility.verbosity.notification": false,
+    "terminal.integrated.accessibleViewFocusOnCommandExecution": false,
+    "json.schemas": [
+
+    ]
+}
